@@ -3,9 +3,9 @@ function roll() {
   let b = Math.floor(Math.random() * 6) + 1;
 
   let gambler1 =
-    'Gambler 1 wins <img src="images/flag.png" width="70" height="70"/>';
+    '<img src="images/flag.png" width="70" height="70"/> Gambler 1 wins';
   let gambler2 =
-    '<img src="images/flag.png" width="70" height="70"/> Gambler 2 wins';
+    'Gambler 2 wins <img src="images/flag.png" width="70" height="70"/>';
 
   let images = [
     "images/dice1.png",
