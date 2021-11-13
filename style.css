@@ -9,14 +9,14 @@ root {
 }
 
 body {
-  background-image: url(images/background.jpg);
+  background-image: url(images/1.jpg);
   background-position: center;
 }
 
-.container {
+/* .container {
   border: solid 15px black;
   box-shadow: 4px 2px 8px magenta;
-}
+} */
 
 .gameContainer {
   background-color: rgba(0, 0, 0, 0.774);
@@ -37,16 +37,18 @@ h1 {
 
 .diceContainer {
   display: grid;
-  grid-template-columns: 49% 49%;
+  grid-template-columns: 1fr 1fr;
   font-family: "Comic Neue", cursive, sans-serif;
   color: rgba(224, 172, 55, 1);
   font-size: 2em;
-  padding: 20px;
+  /* padding: 20px; */
   justify-content: center;
+  grid-gap: 10px;
 }
 .dices {
   display: grid;
   justify-content: center;
+  grid-gap: 10px;
 }
 
 button {
@@ -56,7 +58,7 @@ button {
   font-family: "Comic Neue", cursive, sans-serif;
   color: white;
   background-color: rgba(220, 53, 69, 1);
-  box-shadow: 4px 4px 4px rgba(48, 78, 86, 255);
+  box-shadow: 0px 0px 4px 4px lightskyblue;
   border-radius: 8px;
   margin-bottom: 20px;
 }
@@ -67,10 +69,23 @@ button:hover {
 }
 
 .players {
-  border: solid 6px rgb(194, 50, 64);
+  /* border: solid 6px rgb(194, 50, 64); */
   border-radius: 30px;
-  box-shadow: 10px 10px 20px rgba(68, 27, 83, 255);
+  /* box-shadow: 10px 10px 20px rgba(68, 27, 83, 255); */
   width: 260px;
   height: 260px;
   margin-top: 20px;
+}
+#d1,
+#d2 {
+  height: 200px;
+  width: 200px;
+}
+
+#score {
+  color: white;
+  font-size: 2rem;
+  padding: 10px;
+  font-family: "Comic Neue", cursive, sans-serif;
+  margin-bottom: 20px;
 }
